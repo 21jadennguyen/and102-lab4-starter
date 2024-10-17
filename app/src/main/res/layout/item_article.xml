@@ -25,6 +25,7 @@
         android:maxLines="2"
         android:text="Title"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:fontFamily="@font/newfont"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/mediaImage"
         app:layout_constraintTop_toTopOf="@+id/mediaImage" />
@@ -40,6 +41,7 @@
         android:maxLines="4"
         android:text="Abstract"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:fontFamily="@font/newfont"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/mediaImage"
         app:layout_constraintTop_toBottomOf="@+id/mediaTitle" />
